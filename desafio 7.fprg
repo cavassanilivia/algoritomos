@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Livia.Cavassani"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:13:24 "/>
+        <attribute name="created" value="TGl2aWEuQ2F2YXNzYW5pO05UNDc7MjAyNC0wMy0wNDsiMDk6Mjc6MzkgIjsyOTM3"/>
+        <attribute name="edited" value="TGl2aWEuQ2F2YXNzYW5pO05UNDc7MjAyNC0wMy0wNDsiMDI6MTM6MjQgIjs1OzMwMzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, perimetro, area, diagonal, b, h" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <input variable="h"/>
+            <assign variable="perimetro" expression="2*(b+h)"/>
+            <output expression="perimetro" newline="True"/>
+            <assign variable="area" expression="b*h"/>
+            <output expression="area" newline="True"/>
+            <assign variable="diagonal" expression="((b^2)+(al^2))^0.5"/>
+            <output expression="diagonal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Livia.Cavassani"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 04:17:51 "/>
+        <attribute name="created" value="TGl2aWEuQ2F2YXNzYW5pO05UNDc7MjAyNC0wMy0wNDsiMDM6NDc6MTkgIjsyOTMx"/>
+        <attribute name="edited" value="TGl2aWEuQ2F2YXNzYW5pO05UNDc7MjAyNC0wMy0wNDsiMDQ6MTc6NTEgIjsyOzMwMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cc, vc, dp, kpl" type="Integer" array="False" size=""/>
+            <input variable="vc"/>
+            <input variable="dp"/>
+            <input variable="kpl"/>
+            <assign variable="cc" expression="vc*dp/kpl"/>
+            <output expression="&quot;Voce precisara dar R$&quot;&amp;cc&amp;&quot; &quot;&amp;&quot; de gasolina pro seu carro te levar ao seu destino&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

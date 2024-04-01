@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Livia.Cavassani"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 11:05:12 "/>
+        <attribute name="created" value="TGl2aWEuQ2F2YXNzYW5pO0RFU0tUT1AtRk82NTU5NDsyMDI0LTAxLTI0OyIxMDo1MToyOSAiOzM2NTc="/>
+        <attribute name="edited" value="TGl2aWEuQ2F2YXNzYW5pO0RFU0tUT1AtRk82NTU5NDsyMDI0LTAxLTI0OyIxMTowNToxMiAiOzE7Mzc1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, delta" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="b^2-4*a*c"/>
+            <output expression="delta" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

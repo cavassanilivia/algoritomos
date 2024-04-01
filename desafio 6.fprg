@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Livia.Cavassani"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:04:42 "/>
+        <attribute name="created" value="TGl2aWEuQ2F2YXNzYW5pO05UNDc7MjAyNC0wMy0wNDsiMDE6MjU6MjAgIjsyOTE3"/>
+        <attribute name="edited" value="TGl2aWEuQ2F2YXNzYW5pO05UNDc7MjAyNC0wMy0wNDsiMDI6MDQ6NDIgIjsxOzMwMjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, primeiro, ultimo, tres, um, dois, quatro, menosum, doisU, doisD, tmp" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <input variable="nome"/>
+            <output expression="&quot;NOME COMPLETO&quot;" newline="True"/>
+            <output expression="&quot;Nome&quot;" newline="True"/>
+            <assign variable="primeiro" expression="Char(Nome,0)"/>
+            <output expression="&quot;A PRIMEIRA LETRA &#201;&quot;" newline="True"/>
+            <output expression="primeiro" newline="True"/>
+            <assign variable="ultimo" expression="Char(nome,len(nome)-1)"/>
+            <output expression="ultimo" newline="True"/>
+            <assign variable="um" expression="Char(nome,0)"/>
+            <assign variable="dois" expression="Char(nome,1)"/>
+            <assign variable="tres" expression="Char(nome,2)"/>
+            <output expression="&quot;A PRIMEIRA LETRA ATE A TERCEIRA &#201;&quot;" newline="True"/>
+            <output expression="um&amp;dois&amp;tres" newline="True"/>
+            <assign variable="quatro" expression="char(nome,3)"/>
+            <output expression="&quot;A QUARTA LETRA &#201;&quot;" newline="True"/>
+            <output expression="quarto" newline="True"/>
+            <assign variable="doisU" expression="Char(nome,len(nome)-1)"/>
+            <assign variable="doisU" expression="Char(nome,len(nome)-2)"/>
+            <output expression="&quot;OS DOIS ULTIMOS S&#195;O&quot;" newline="True"/>
+            <output expression="doisD&amp;doisU" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

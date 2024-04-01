@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Livia.Cavassani"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-29 10:32:59 "/>
+        <attribute name="created" value="TGl2aWEuQ2F2YXNzYW5pO0RFU0tUT1AtRk82NTU5NDsyMDI0LTAxLTI5OyIwODoyNToyMyAiOzM2NjQ="/>
+        <attribute name="edited" value="TGl2aWEuQ2F2YXNzYW5pO0RFU0tUT1AtRk82NTU5NDsyMDI0LTAxLTI5OyIxMDozMjo1OSAiOzQ7Mzc3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <comment text="Inicio do exemplo de rotina de repeticao FAZER"/>
+            <assign variable="c" expression="1"/>
+            <do expression="c&lt;=100">
+                <if expression="c%17==0">
+                    <then>
+                        <output expression="c" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="c" expression="c+1"/>
+            </do>
+            <comment text="fim do exemplo de rotina de repeticao FAZER"/>
+            <assign variable="b" expression="1"/>
+            <comment text="Inicio do exemplo de codigo de repeticao ENQUANTO"/>
+            <while expression="b&lt;=100">
+                <if expression="b%13==0">
+                    <then>
+                        <output expression="b" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="b" expression="b+1"/>
+            </while>
+            <comment text="fim do exemplo de codigo de repeticao ENQUANTO"/>
+            <comment text="INICIO de exemplo de codigo da repeticao PARA"/>
+            <for variable="a" start="1" end="100" direction="inc" step="1">
+                <if expression="a%7==0">
+                    <then>
+                        <output expression="a" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <comment text="final de exemplo de codigo da repeticao PARA"/>
+        </body>
+    </function>
+</flowgorithm>

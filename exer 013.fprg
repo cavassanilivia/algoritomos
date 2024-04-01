@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Livia.Cavassani"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-05 10:02:39 "/>
+        <attribute name="created" value="TGl2aWEuQ2F2YXNzYW5pO0RFU0tUT1AtRk82NTU5NDsyMDI0LTAyLTA1OyIwODozMToxNiAiOzM2NTg="/>
+        <attribute name="edited" value="TGl2aWEuQ2F2YXNzYW5pO0RFU0tUT1AtRk82NTU5NDsyMDI0LTAyLTA1OyIxMDowMjozOSAiOzU7Mzc2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, faltas, aulas, media" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="mensagem" type="String" array="False" size=""/>
+            <assign variable="aulas" expression="100"/>
+            <input variable="nome"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="faltas"/>
+            <assign variable="media" expression="(nota1*2+nota2*3+nota3*5)/10"/>
+            <output expression="media" newline="True"/>
+            <if expression="(media&gt;=7.0 &amp;&amp; faltas&lt;0.25* aulas)">
+                <then>
+                    <assign variable="mensagem" expression="&quot;aprovado&quot;"/>
+                    <output expression="nome&amp; &quot; aprovado com media &quot;  &amp; media" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="mensagem" expression="&quot;reprovado&quot;"/>
+                    <output expression="nome&amp; &quot; reprovado com media &quot;  &amp; media" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
